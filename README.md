@@ -1,4 +1,4 @@
-# Shortest-path-2D
+## 2D_shortest_path_finding_Visualizer
 
 **GIF**
 ![WhatsApp Video 2020-12-19 at 5 32 27 PM](https://user-images.githubusercontent.com/30202180/102689291-f2842580-4222-11eb-845f-e498a57fb349.gif)
@@ -6,9 +6,12 @@
 
 
 
+1. **Important components** :
+	1. Main loop 
+	2. Dijkstra program
+	3. A*
 
-
-1. **Color coding** :
+1. **Colors Characteristics ** :
 	1. Unexplored cells ->White
 	2. Blocked cells -> Black
 	3. Start cell -> Blue
@@ -24,18 +27,15 @@
 	12. Diagonal cost -> √2.
 
 
-2. **Major components** :
-	1. Main loop 
-	2. Dijkstra program
-	3. A*
 
-3. **Implementation** :
+
+3. ** Algorithm Implementation** :
 	1. Map as 2D array of cells
 	2. Binary representation of cells as 0 and 1 for blocked and open cells
 	3. Each cell has information of its parent and its state of exploration
 
 
-4. **## Build For Linux user ##**
+4. **## Build For Linux user(Optional) ##**
 	1. **Download the zip file then unzip at the location 'Home'**:
 		1. `cd Shortest-path-2D-main` 
 	2. **Install sfml**: `sudo apt-get install libsfml-dev`
